@@ -21,39 +21,37 @@
                 CSS Externo:
         -->
         <!--Interono: -->
+        <style type="text/css">
+            footer {
+                background-color: crimson;
+            }
+
+            header {
+                background-color: yellow !important; 
+                /*Se adicionar !important priorioza ao inves do Inline.*/
+            }
+        </style>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <header>
-            <div class="barra_superior">
-                <div class="container">
-                    Horario de abertura: 09:00h - 18:00h
-                </div>
-            </div>
-            <div class="container">
-                <img alt="Logo da Empresa" title="Logo da empresa XYZ" src="img/logo.jpg"/>
-                <nav>
-                    Pagina Inicial | 
-                    Produtos | 
-                    Marcas | 
-                    <a title="Direciona para a pagina fale conosco" href="faleconosco.html">Fale Conosco</a>
-                    <a class="btn_destaque" title="Direciona para a pagina onde estamos" href="ondeestamos.html">Onde estamos</a>
-                </nav>
-            </div>
-            
+        <header style="background-color: blueviolet;"> <!--Tipo de CSS Inline-->
+            Horario de abertura: 09:00h - 18:00h
+            <br/>
+            <img alt="Logo da Empresa" title="Logo da empresa XYZ" src="img/logo.jpg"/>
+            <nav>
+                Pagina Inicial | 
+                Produtos | 
+                Marcas | 
+                <a title="Direciona para a pagina fale conosco" href="faleconosco.html">Fale Conosco</a>
+                <a title="Direciona para a pagina onde estamos" href="ondeestamos.html">(Onde estamos)</a>
+            </nav>
         </header>
-        <section class="sec01">
-            <div class="container">
-                <p class="titulo">
-                    Ajuda profissional<br> 
-                    para escolher as<br>
-                    melhores lentes
-                </p>
-                <p>
-                    Armações e lentes
-                </p>
-                <a class="btn_destaque" title="Direciona para a pagina onde estamos" href="ondeestamos.html">Onde estamos</a>
-            </div>
+        <section>
+            Ajuda profissional para escolher as melhores lentes
+
+            Armacoes e lentes
+
+            <a title="Direciona para a pagina onde estamos" href="ondeestamos.html">(Onde estamos)</a>
         </section>
         <section>
             Trabalhamos com as melhores marcas de lentes
